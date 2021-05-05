@@ -1,6 +1,10 @@
 # truestamp/homebrew-tap
 
-Homebrew Formulae
+## Install
 
-<!-- project_table_start -->
-<!-- project_table_end -->
+Install using [Homebrew](https://brew.sh/).
+
+```sh
+brew tap truestamp/tap
+brew install truestamp-cli
+```
