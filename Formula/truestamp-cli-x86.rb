@@ -1,9 +1,9 @@
 class TruestampCliX86 < Formula
   desc "Command-line client for the Truestamp API for Intel x86 64 bit Macs"
   homepage "https://github.com/truestamp/truestamp-cli"
-  url "https://github.com/truestamp/truestamp-cli/releases/download/v0.0.2/truestamp-darwin-x86_64-lite.tar.gz"
-  sha256 "40fef8b3ab8537d89a939acf45ac1c296ddf821436387b6441a5280326249a61"
-  version "v0.0.2"
+  url "https://github.com/truestamp/truestamp-cli/releases/download/v0.0.3/truestamp-darwin-x86_64.tar.gz"
+  sha256 "fe58b339b560c3d02b96042bd24965e881ef6e938b983c2cbcf70eb388310614"
+  version "v0.0.3"
 
   bottle :unneeded
 
