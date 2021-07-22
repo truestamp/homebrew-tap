@@ -1,4 +1,4 @@
-class TruestampCliX86 < Formula
+class TruestampCli < Formula
   desc "Command-line client for the Truestamp API"
   homepage "https://github.com/truestamp/truestamp-cli"
 
