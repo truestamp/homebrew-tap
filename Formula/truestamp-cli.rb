@@ -33,8 +33,6 @@ class TruestampCli < Formula
       sha256 SHA256_LINUX_X86
   end
 
-  bottle :unneeded
-
   def install
     bin.install "truestamp"
   end
