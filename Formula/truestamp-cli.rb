@@ -4,7 +4,7 @@ class TruestampCli < Formula
 
   # RELEASE : CHANGE ME
   # Shared version constant
-  VERSION = "v0.0.12"
+  VERSION = "v0.0.13"
 
   # RELEASE : CHANGE ME
   # wget [file]
