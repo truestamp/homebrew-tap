@@ -6,7 +6,7 @@ class ItermWorkspace < Formula
   license "MIT"
 
   def install
-    bin.install "bin/iterm-workspace"
+    bin.install "iterm-workspace"
     bin.install "bootstrap-iterm-workspace"
   end
 
