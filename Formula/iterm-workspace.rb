@@ -7,6 +7,7 @@ class ItermWorkspace < Formula
 
   def install
     bin.install "bin/iterm-workspace"
+    bin.install "bootstrap-iterm-workspace"
   end
 
   test do
