@@ -1,8 +1,8 @@
 class ItermWorkspace < Formula
   desc "Configurable iTerm2 scripting for launching project workspace programs"
   homepage "https://github.com/truestamp/iterm-workspace"
-  url "https://github.com/truestamp/iterm-workspace/archive/refs/tags/v2.0.1.tar.gz"
-  sha256 "b1990fb142c78708dbe3ba256a64e8e84931f94c448e824b0d689c1dd4528a3b"
+  url "https://github.com/truestamp/iterm-workspace/archive/refs/tags/v2.0.0.tar.gz"
+  sha256 "de198542a60219bcb848a69df40cfdbe2c170a0c1016ea8800e9a1d3f3f6efa8"
   license "MIT"
 
   def install
