@@ -4,14 +4,14 @@ class TruestampCli < Formula
 
   # RELEASE : CHANGE ME
   # Shared version constant
-  VERSION = "v0.0.14"
+  VERSION = "v0.0.16"
 
   # RELEASE : CHANGE ME
   # wget [file]
   # sha256sum [file]
-  SHA256_DARWIN_ARM = "cf55e726bc609c0a0af3aeae19c16ed95987d1d6a1d7c5b6c9d72ec5f336c4e3"
-  SHA256_DARWIN_X86 = "ce066394b63932f40b6ab3e9b5ee554d1cb2ee8e7432ebe7a13f1a8472c27db5"
-  SHA256_LINUX_X86 = "26c903167365b2469e1353ca73df8fc0eb263b881ccadc27b474ab9c8e5f981c"
+  SHA256_DARWIN_ARM = "0e349077476e7deae318b36d3e17ed5f91aa00f0922e2778efc72e8a9150c3f2"
+  SHA256_DARWIN_X86 = "6eaece730907afd6cfe37f28cc07b2e75b6c9b9d3cd45fcb810a33eafead074d"
+  SHA256_LINUX_X86 = "c7e32e8a67f15747a85a6a20397d4509dfdddd88d836ebf17819d30b15f3a37c"
 
   BASE_URL = "https://github.com/truestamp/truestamp-cli/releases/download"
 
