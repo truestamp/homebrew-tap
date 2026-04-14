@@ -1,52 +1,44 @@
 # truestamp/homebrew-tap
 
-[Homebrew](https://brew.sh/) [Tap](https://docs.brew.sh/Taps) for installing the [Truestamp CLI](https://github.com/truestamp/truestamp-cli) on
-Apple macOS (x86, Apple Silicon) and Linux systems.
+[Homebrew](https://brew.sh/) [tap](https://docs.brew.sh/Taps) that distributes pre-compiled binaries of the [Truestamp CLI](https://github.com/truestamp/truestamp-cli) for macOS (Intel, Apple Silicon) and Linux (x86_64, arm64).
 
-[Taps](https://docs.brew.sh/Taps) add repositories to the list of formulae that `brew` tracks, updates, and installs from.
+This tap is maintained automatically by [GoReleaser](https://goreleaser.com/) on every tagged release of `truestamp-cli`. The generated Cask lives in [`Casks/truestamp-cli.rb`](./Casks/).
 
-If you are trying to install the Truestamp CLI on a Windows, or on a Linux system where you don't use Homebrew, please follow the [manual installation](https://github.com/truestamp/truestamp-cli) steps.
+## Install
 
-## Installation
-
-There are currently three builds available. The right build should be chosen for your system automatically.
-
-- Apple macOS (Intel x86-064)
-- Apple macOS (Apple Silicon/M1/arm/aarch64)
-- Linux (Intel x86-064)
-
-The initial `brew tap` step is only required the first time you install. Thereafter a
-simple `brew update` and `brew upgrade` will do the right thing.
-
-### Setup
-
-One-time command.
+One-time tap setup:
 
 ```sh
 brew tap truestamp/tap
 ```
 
-### Install
+Install:
 
 ```sh
-brew install truestamp-cli
+brew install truestamp/tap/truestamp-cli
 ```
 
-### Upgrade
-
-To perform a periodic upgrade.
+Upgrade to the latest release:
 
 ```sh
-brew update
-brew upgrade
+brew upgrade truestamp/tap/truestamp-cli
 ```
 
-### Uninstall
+Uninstall:
 
 ```sh
-brew uninstall truestamp-cli
-
-# or
-
-brew uninstall --force truestamp-cli
+brew uninstall truestamp/tap/truestamp-cli
 ```
+
+## Other install channels
+
+The Truestamp CLI is also distributed via:
+
+- **`go install`** — `go install github.com/truestamp/truestamp-cli@latest`
+- **Direct binary download** — [Releases page](https://github.com/truestamp/truestamp-cli/releases/latest) for darwin/linux/windows × amd64/arm64
+
+See the [truestamp-cli README](https://github.com/truestamp/truestamp-cli#install) for full details.
+
+## License
+
+MIT. See [LICENSE](./LICENSE).
