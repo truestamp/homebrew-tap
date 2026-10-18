@@ -34,7 +34,7 @@ brew uninstall truestamp/tap/truestamp-cli
 
 The Truestamp CLI is also distributed via:
 
-- **`go install`** — `go install github.com/truestamp/truestamp-cli@latest`
+- **`go install`** — `go install github.com/truestamp/truestamp-cli/cmd/truestamp@latest`
 - **Direct binary download** — [Releases page](https://github.com/truestamp/truestamp-cli/releases/latest) for darwin/linux/windows × amd64/arm64
 
 See the [truestamp-cli README](https://github.com/truestamp/truestamp-cli#install) for full details.
