@@ -1,3 +1,8 @@
+<!--
+Copyright (c) 2021-2026 Truestamp, Inc.
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # truestamp/homebrew-tap
 
 [Homebrew](https://brew.sh/) [tap](https://docs.brew.sh/Taps) that distributes pre-compiled binaries of the [Truestamp CLI](https://github.com/truestamp/truestamp-cli) for macOS (Intel, Apple Silicon) and Linux (x86_64, arm64).
@@ -34,11 +39,13 @@ brew uninstall truestamp/tap/truestamp-cli
 
 The Truestamp CLI is also distributed via:
 
-- **`go install`** — `go install github.com/truestamp/truestamp-cli@latest`
+- **`go install`** — `go install github.com/truestamp/truestamp-cli/cmd/truestamp@latest`
 - **Direct binary download** — [Releases page](https://github.com/truestamp/truestamp-cli/releases/latest) for darwin/linux/windows × amd64/arm64
 
 See the [truestamp-cli README](https://github.com/truestamp/truestamp-cli#install) for full details.
 
 ## License
 
-MIT. See [LICENSE](./LICENSE).
+Apache License 2.0. See [LICENSE](./LICENSE).
+
+Copyright (c) 2021-2026 [Truestamp, Inc.](https://www.truestamp.com)
